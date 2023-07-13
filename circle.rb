@@ -11,4 +11,8 @@ class Circle
     p "hello"
   end
 
+  def area 
+    MATH::PI * radius ** 2
+  end
+
 end
